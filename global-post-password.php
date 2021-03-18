@@ -258,7 +258,7 @@ class GlobalPostPassword {
 		}
 
 		?>
-		<div class="hide-if-js globalpostpassword"><input name="globalpostpassword[]" type="text" value="" class="regular-text" maxlength="20" /></div>
+		<div class="globalpostpassword"><input name="globalpostpassword[]" type="text" value="" class="regular-text" maxlength="20" /></div>
 		<strong class="hide-if-no-js"><a href="#" id="add_gpp"><?php esc_html_e( '+ Add', 'global-post-password' ); ?></a></strong>
 		<p>
 			<?php esc_html_e( 'Optionally, any number of additional global passwords can be set here.', 'global-post-password' ); ?>
